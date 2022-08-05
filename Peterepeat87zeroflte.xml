@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <!--Device Trees-->
+    <project path="device/samsung/zerofltexx" name="Peterepeat87/android_device_samsung_zerofltexx" remote="github" />
+    <project path="device/samsung/universal7420-common" name="Peterepeat87/android_device_samsung_universal7420-common" remote="github" />
+
+    <!--Kernel-->
+    <project path="kernel/samsung/universal7420" name="Peterepeat87/android_kernel_samsung_universal7420" remote="github" />
+
+    <!-- Vendor folders -->
+    <project path="vendor/samsung/zerofltexx" name="Peterepeat87/proprietary_vendor_samsung_zerofltexx" remote="github" />
+    <project path="vendor/samsung/universal7420-common" name="Peterepeat87/proprietary_vendor_samsung_universal7420-common" remote="github" />
+    	
+    <!-- Hardware -->
+    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+      	<project name="LineageOS/android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" />
+  	<project name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" />
+  	<project name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" />
+  	<project name="LineageOS/android_hardware_samsung_slsi_exynos7420" path="hardware/samsung_slsi/exynos7420" />
+  	<project name="LineageOS/android_hardware_samsung_ExynosHWCServiceTW" path="hardware/samsung_slsi/libbt" />
+    
+    <!--SLSI sec-->
+    <project path="device/samsung_slsi/sepolicy" name="Peterepeat87/android_device_samsung_slsi_sepolicy" remote="github" />
+ 
+</manifest>
+
+<!--
+
+
+
+    <project path="kernel/samsung/exynos990" name="Peterepeat87/S20-Thunderstorm-AOSP-port" remote="github" revision="master"/>
+
+
+-->
