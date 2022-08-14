@@ -3,26 +3,34 @@
 <manifest>
 
     <!--Device Trees-->
-    <project path="device/samsung/" name="Peterepeat87/" remote="github" />
-    <project path="device/samsung/-common" name="Peterepeat87/" remote="github" />
+    <project path="device/samsung/starqltechn" name="Peterepeat87/android_device_samsung_starqltechn" remote="github" />
+    <project path="device/samsung/star2qltechn" name="Peterepeat87/android_device_samsung_starqltechn" remote="github" />
+    <project path="device/samsung/sdm845-common" name="Peterepeat87/android_device_samsung_sdm845-common" remote="github" />
 
     <!--Kernel-->
-    <project path="kernel/samsung/" name="Peterepeat87/" remote="github" />
+    <project path="kernel/samsung/sdm845" name="Peterepeat87/android_kernel_samsung_sdm845" remote="github" />
 
     <!-- Vendor  -->
-    <project path="vendor/samsung/" name="Peterepeat87/" remote="github" />
+    <project path="vendor/samsung/sdm845-common" name="Peterepeat87/proprietary_vendor_samsung_sdm845-common" remote="github" />
     <project path="vendor/samsung/-common" name="Peterepeat87/" remote="github" />
     	
-    <!-- Hardware -->
-    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1" />
 
-    
-    <!--SLSI sec-->
-    <project path="device/samsung_slsi/sepolicy" name="Peterepeat87/android_device_samsung_slsi_sepolicy" remote="github" />
  
 </manifest>
 
+
+
+# the following were from my exynos build attempts. I don't know if they will be needed
 <!--
+    <!-- Hardware ->
+    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1" />
+
+    
+    <!--SLSI sec->
+    <project path="device/samsung_slsi/sepolicy" name="Peterepeat87/android_device_samsung_slsi_sepolicy" remote="github" />
+
+
+
   <project name="LineageOS/android_hardware_samsung_slsi_libbt" path="hardware/samsung_slsi/libbt" />
   <project name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" />
   <project name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" />
